@@ -122,6 +122,8 @@ my $builder = $class->new(
         'namespace::autoclean'         => 0,
     },
     requires => {
+        'autobox'              => 0,
+        'autobox::Core'        => 0,
         'Carp'                 => 1.17,
         'Net::IDN::Encode'     => 2.003,
         'Net::IDN::Nameprep'   => 1.101,
