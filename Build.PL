@@ -120,6 +120,8 @@ my $builder = $class->new(
         'Net::IDN::Encode'             => 2.003,
         'Unicode::CharName'            => 1.07,
         'namespace::autoclean'         => 0,
+        'autobox'                      => 0,
+        'autobox::Core'                => 0,
     },
     requires => {
         'Carp'                 => 1.17,
