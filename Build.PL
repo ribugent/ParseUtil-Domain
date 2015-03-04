@@ -131,7 +131,6 @@ my $builder = $class->new(
         'autobox::Core'        => 0,
         'List::MoreUtils'      => 0,
         'Modern::Perl'         => 0,
-        'utf8::all'            => 0,
         'English'              => 0,
         'File::Spec'           => 0,
     },

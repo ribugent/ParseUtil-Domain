@@ -6,12 +6,12 @@ use warnings;
 use parent qw(Test::Class);
 
 use Modern::Perl;
-use utf8::all;
+use utf8;
 use Test::More;
 
 use Test::Exception;
 #use Smart::Comments;
-binmode(STDOUT, "utf8");
+binmode(STDOUT, ":encoding(UTF-8)");
 
 use ParseUtil::Domain ':parse';
 
